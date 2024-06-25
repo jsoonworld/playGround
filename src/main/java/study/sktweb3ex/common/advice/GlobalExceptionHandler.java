@@ -1,14 +1,14 @@
 package study.sktweb3ex.common.advice;
 
 import lombok.extern.slf4j.Slf4j;
-import org.sopt.sktweb3.common.exception.BadRequestException;
-import org.sopt.sktweb3.common.exception.InternalServerErrorException;
-import org.sopt.sktweb3.common.exception.NotFoundException;
-import org.sopt.sktweb3.common.response.BaseResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
+import study.sktweb3ex.common.exception.BadRequestException;
+import study.sktweb3ex.common.exception.InternalServerErrorException;
+import study.sktweb3ex.common.exception.NotFoundException;
+import study.sktweb3ex.common.response.BaseResponse;
 
 @RestControllerAdvice
 @Slf4j

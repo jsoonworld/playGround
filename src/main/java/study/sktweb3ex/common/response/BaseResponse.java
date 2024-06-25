@@ -1,8 +1,8 @@
 package study.sktweb3ex.common.response;
 
-import org.sopt.sktweb3.common.message.SuccessMessage;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import study.sktweb3ex.common.message.SuccessMessage;
 
 public record BaseResponse<T>(
         String message,
